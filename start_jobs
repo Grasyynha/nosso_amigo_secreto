@@ -1,2 +1,2 @@
-# Roda os job
+# Roda os jobs
 bundle exec sidekiq -q emails
