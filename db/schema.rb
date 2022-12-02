@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_25_132402) do
   create_table "campaigns", force: :cascade do |t|
     t.string "title"
     t.text "description"
-    t.bigint "user_id", null: false
+    t.bigint "user_id"
     t.integer "status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
